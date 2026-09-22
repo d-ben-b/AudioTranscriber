@@ -2,4 +2,12 @@
 /.vscode
 /AudioTranscriber.egg-info
 /build
-/__pycache__
+__pycache__/
+*.egg-info/
+
+# Generated at runtime
+/audio/
+/transcripts/
+/downloaded_audio.*
+/recorded_audio.wav
+/STT_*.txt

@@ -1,0 +1,12 @@
+# Runtime dependencies for AudioTranscriber.
+#
+# PyTorch: the plain `pip install -r requirements.txt` pulls the CPU build.
+# For NVIDIA GPU acceleration install it from the CUDA index FIRST, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+#
+# ffmpeg must also be installed and on PATH (used by Whisper and yt-dlp).
+
+openai-whisper>=20231117   # NOT the unrelated `whisper` package on PyPI
+torch>=2.0
+PyAudio>=0.2.14
+yt-dlp>=2024.1.1
