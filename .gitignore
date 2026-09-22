@@ -1,0 +1,5 @@
+/.venv
+/.vscode
+/AudioTranscriber.egg-info
+/build
+/__pycache__
